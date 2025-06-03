@@ -1,135 +1,83 @@
-# UI-Task Project
+# UI Tasks Project
 
-This project is a multi-tabbed user interface built using **HTML5**, **CSS3**, **JavaScript**, and **Bootstrap**. Each tab represents a unique task with interactive features, animations, and dynamic content.
+This project contains 7 UI tasks designed using **Bootstrap** and custom CSS. Each task is implemented as a separate HTML file with its own styles and scripts. The tasks are interconnected via navigation tabs for easy access.
 
----
-
-## 📋 Table of Contents
-
-* [Features](#features)
-* [Technologies Used](#technologies-used)
-* [Project Structure](#project-structure)
-* [Setup Instructions](#setup-instructions)
-* [Tasks Overview](#tasks-overview)
-* [Screenshots](#screenshots)
-* [License](#license)
-
----
-
-## 🚀 Features
-
-* **Multi-tab Navigation**: Each tab contains a unique interactive task.
-* **Dynamic State Management**: Tabs reset to their default state when revisited.
-* **Interactive Animations**: Hover effects, popups, balloon popping, quizzes, and more.
-* **Responsive Design**: Optimized layout for all screen sizes and devices.
-* **Reusable Components**: Clean, modular code structure for scalability and ease of maintenance.
-
----
-
-## 🛠️ Technologies Used
-
-* **HTML5** – Markup structure
-* **CSS3** – Styling and transitions
-* **Bootstrap 5** – Grid and UI components
-* **JavaScript (ES6)** – Core interactivity and logic
-* **jQuery** – DOM manipulation and event handling
-* **Font Awesome** – Iconography
-* **Bootstrap Icons** – Additional icon support
-
----
-
-## 📁 Project Structure
+## Folder Structure
 
 ```
-UI-tasks/
+ui-tasks/
+├── task1/
+│   ├── index.html
+│   ├── styles.css
+│   └── script.js
+├── task2/
+│   ├── index.html
+│   ├── styles.css
+│   └── script.js
+├── task3/
+│   ├── index.html
+│   ├── styles.css
+│   └── script.js
+├── task4/
+│   ├── index.html
+│   ├── styles.css
+│   └── script.js
+├── task5/
+│   ├── index.html
+│   ├── styles.css
+│   └── script.js
+├── task6/
+│   ├── index.html
+│   ├── styles.css
+│   └── script.js
+├── task7/
+│   ├── index.html
+│   ├── styles.css
+│   └── script.js
 ├── assets/
 │   ├── css/
-│   │   ├── bootstrap.min.css
-│   │   ├── custom.css
-│   │   └── owl.carousel.min.css
-│   ├── js/
-│   │   ├── bootstrap.bundle.min.js
-│   │   ├── custom.js
-│   │   └── owl.carousel.min.js
-│   ├── img/
-│   │   ├── yacht.jpg
-│   │   ├── inn.jpg
-│   │   ├── spa.jpg
-│   │   └── black_friday.png
-├── index.html
+│   │   └── bootstrap.min.css
+│   └── img/
+│       ├── yacht.jpg
+│       ├── inn.jpg
+│       └── super_yatch.png
 └── README.md
 ```
 
----
+## Features
 
-## ⚙️ Setup Instructions
+- **Bootstrap Integration**: All tasks use Bootstrap for responsive design and styling.
+- **Custom CSS**: Each task has its own `styles.css` file for additional styling.
+- **JavaScript Functionality**: Interactive elements are implemented using `script.js`.
+- **Navigation Tabs**: A tab-based navigation system connects all tasks for seamless browsing.
+- **Images**: High-quality images are used to enhance the visual appeal of the tasks.
 
-1. **Clone the repository:**
+## How to Run
 
-   ```bash
-   git clone https://github.com/your-username/UI-tasks.git
-   ```
+1. Clone the repository or download the project folder.
+2. Open any `index.html` file from the `task1` to `task7` folders in your browser.
+3. Ensure the `assets` folder is in the correct relative path for images and Bootstrap CSS.
 
-2. **Navigate to the project directory:**
+## Task Details
 
-   ```bash
-   cd UI-tasks
-   ```
+### Task 1: Welcome Gift
+- Displays a polaroid-style image gallery.
+- Users can hover over images to reveal hidden content.
+- Includes a form to select options and claim rewards.
 
-3. **Open `index.html` in your browser to view the project.**
+### Task 2-7
+- Each task has unique functionality and design.
+- Navigate between tasks using the tabs at the top of the page.
 
-4. **Ensure you have an internet connection for CDN assets (Bootstrap, jQuery, etc.).**
+## Dependencies
 
----
+- [Bootstrap](https://getbootstrap.com/)
+- [GSAP](https://greensock.com/gsap/)
+- [Google Fonts](https://fonts.google.com/)
 
-## 🧩 Tasks Overview
+## License
 
-* **Task 1: Welcome Gift**
-
-  * Polaroid image with hover effect
-  * User selects an option to reveal a reward
-
-* **Task 2: Balloon Game**
-
-  * Users pop balloons to reveal a discount
-  * Balloons reset on tab revisit
-
-* **Task 3: Slideshow and Popup**
-
-  * Slideshow with promotional popup
-  * Offers discount or gift on interaction
-
-* **Task 4: Quiz**
-
-  * A multi-step quiz to recommend a product
-  * Quiz resets to first question when revisited
-
-* **Task 5: Shooting Game**
-
-  * Target shooting interaction
-  * Reveals a hidden bonus
-
-* **Task 6: Gift Cards**
-
-  * Interactive card selection
-  * Hover animation and reset logic on revisit
-
-* **Task 7: Black Friday Animation**
-
-  * Visual animation promoting Black Friday offers
+This project is open-source and can be modified or distributed freely.
 
 ---
 
-## 🖼️ Screenshots
-
-> *(Add screenshots of the UI here in markdown format when available)*
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-Let me know if you'd like to add deployment instructions, screenshot image links, or a contributing section.
